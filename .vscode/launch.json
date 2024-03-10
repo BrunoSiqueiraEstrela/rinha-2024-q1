@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // infra/aplicacao/apis/gunicorn.py aplicacoes.api.fast_run:app
+            "name": "DEBUG:FASTAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/",
+            "args": [
+                "start:app",
+                "--reload",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "9999",
+                // "--reload-delay",
+                // "2",
+                "--workers",
+                "5",
+                // "--log-level",
+                // "error",
+            ],
+            "jinja": true,
+            "justMyCode": false,
+            //envFile": "${workspaceFolder}/.env",
+        }
+]
+}

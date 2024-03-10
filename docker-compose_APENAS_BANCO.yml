@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+
+  db:
+    container_name: svc-db
+    image: postgres:16.1-alpine
+    hostname: database
+    command: postgres -c config_file=/docker-entrypoint-initdb.d/postgresql.conf
+    volumes:
+      - ./config/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./config/postgresql.conf:/docker-entrypoint-initdb.d/postgresql.conf
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
+      interval: 5s
+      timeout: 5s
+      retries: 25
+      start_period: 3s
+    deploy:
+      resources:
+        limits:
+          cpus: '0.55'
+          memory: '450MB'
+    environment:
+      POSTGRES_DB: rinha
+      POSTGRES_USER: rinha
+      POSTGRES_PASSWORD: rinha
+    ports:
+      - "5432:5432"    
+  

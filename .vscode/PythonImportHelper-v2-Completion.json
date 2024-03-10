@@ -1,0 +1,915 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Final",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "src.model.cliente",
+        "description": "src.model.cliente",
+        "isExtraImport": true,
+        "detail": "src.model.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "src.model.cliente",
+        "description": "src.model.cliente",
+        "isExtraImport": true,
+        "detail": "src.model.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MetaData",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MetaData",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "registry_base",
+        "importPath": "src.database.settings.base",
+        "description": "src.database.settings.base",
+        "isExtraImport": true,
+        "detail": "src.database.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "registry_base",
+        "importPath": "src.database.settings.base",
+        "description": "src.database.settings.base",
+        "isExtraImport": true,
+        "detail": "src.database.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "Transacao",
+        "importPath": "src.model.transacao",
+        "description": "src.model.transacao",
+        "isExtraImport": true,
+        "detail": "src.model.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "Transacao",
+        "importPath": "src.model.transacao",
+        "description": "src.model.transacao",
+        "isExtraImport": true,
+        "detail": "src.model.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "Transacao",
+        "importPath": "src.model.transacao",
+        "description": "src.model.transacao",
+        "isExtraImport": true,
+        "detail": "src.model.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnection",
+        "importPath": "src.database.manager",
+        "description": "src.database.manager",
+        "isExtraImport": true,
+        "detail": "src.database.manager",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnection",
+        "importPath": "src.database.manager",
+        "description": "src.database.manager",
+        "isExtraImport": true,
+        "detail": "src.database.manager",
+        "documentation": {}
+    },
+    {
+        "label": "TransacaoDoExtrato",
+        "importPath": "src.model.extrato",
+        "description": "src.model.extrato",
+        "isExtraImport": true,
+        "detail": "src.model.extrato",
+        "documentation": {}
+    },
+    {
+        "label": "SaidaExtrato",
+        "importPath": "src.model.extrato",
+        "description": "src.model.extrato",
+        "isExtraImport": true,
+        "detail": "src.model.extrato",
+        "documentation": {}
+    },
+    {
+        "label": "SaidaSaldo",
+        "importPath": "src.model.extrato",
+        "description": "src.model.extrato",
+        "isExtraImport": true,
+        "detail": "src.model.extrato",
+        "documentation": {}
+    },
+    {
+        "label": "TransacaoDoExtrato",
+        "importPath": "src.model.extrato",
+        "description": "src.model.extrato",
+        "isExtraImport": true,
+        "detail": "src.model.extrato",
+        "documentation": {}
+    },
+    {
+        "label": "registry",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "registry",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "importPath": "src.infra.configs.variaveis",
+        "description": "src.infra.configs.variaveis",
+        "isExtraImport": true,
+        "detail": "src.infra.configs.variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "Engine",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "NullPool",
+        "importPath": "sqlalchemy.pool",
+        "description": "sqlalchemy.pool",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.pool",
+        "documentation": {}
+    },
+    {
+        "label": "load_tables",
+        "importPath": "src.database.settings.entities",
+        "description": "src.database.settings.entities",
+        "isExtraImport": true,
+        "detail": "src.database.settings.entities",
+        "documentation": {}
+    },
+    {
+        "label": "load_tables",
+        "importPath": "src.database.settings.entities",
+        "description": "src.database.settings.entities",
+        "isExtraImport": true,
+        "detail": "src.database.settings.entities",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "isExtraImport": true,
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "EntradaInvalida",
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "isExtraImport": true,
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "EntradaInvalida",
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "isExtraImport": true,
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "NaoEncontrado",
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "isExtraImport": true,
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "EntradaTransacao",
+        "importPath": "src.model.transacao.entrada",
+        "description": "src.model.transacao.entrada",
+        "isExtraImport": true,
+        "detail": "src.model.transacao.entrada",
+        "documentation": {}
+    },
+    {
+        "label": "SaidaTransacao",
+        "importPath": "src.model.transacao.saida",
+        "description": "src.model.transacao.saida",
+        "isExtraImport": true,
+        "detail": "src.model.transacao.saida",
+        "documentation": {}
+    },
+    {
+        "label": "RepositorioDeTransacao",
+        "importPath": "src.database.orm.repositorio.transacao",
+        "description": "src.database.orm.repositorio.transacao",
+        "isExtraImport": true,
+        "detail": "src.database.orm.repositorio.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "RepositorioDeCliente",
+        "importPath": "src.database.orm.repositorio.cliente",
+        "description": "src.database.orm.repositorio.cliente",
+        "isExtraImport": true,
+        "detail": "src.database.orm.repositorio.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "rotas",
+        "importPath": "src.rotas.rotas",
+        "description": "src.rotas.rotas",
+        "isExtraImport": true,
+        "detail": "src.rotas.rotas",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "GerenciadorENV",
+        "kind": 6,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "class GerenciadorENV(BaseSettings):\n    _instance = None\n    model_config = SettingsConfigDict(env_file=get_env_file_path()[0])\n    # BANCO DE DADOS\n    DB_CONNECTION: Final[str] = Field(env=\"DB_CONNECTION\")\n    DB_HOST: Final[str] = Field(env=\"DB_HOST\")\n    DB_PORT: Final[str] = Field(env=\"DB_PORT\")\n    DB_USER: Final[str] = Field(env=\"DB_USER\")\n    DB_PASSWORD: Final[str] = Field(env=\"DB_PASSWORD\")\n    DB_DATABASE: Final[str] = Field(env=\"DB_DATABASE\")",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "get_env_file_path",
+        "kind": 2,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "def get_env_file_path() -> Optional[str]:\n    return [\n        *Path().absolute().glob(\"**/*.env\"),\n    ]\nif len(get_env_file_path()) == 0:\n    raise Exception(\"ENV_DIR não encontrado\")\nprimeiro_em_fila = get_env_file_path()[0]\nENV_DIR = primeiro_em_fila\nDIR_ENV: Path = Path(ENV_DIR)\n# / \".env\"",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "primeiro_em_fila",
+        "kind": 5,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "primeiro_em_fila = get_env_file_path()[0]\nENV_DIR = primeiro_em_fila\nDIR_ENV: Path = Path(ENV_DIR)\n# / \".env\"\nif ENV_DIR is None:\n    raise Exception(\"ENV_DIR não encontrado\")\nprint(f\"Carregando env do diretorio: {DIR_ENV}\")\nx = get_env_file_path()\nclass GerenciadorENV(BaseSettings):\n    _instance = None",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "ENV_DIR",
+        "kind": 5,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "ENV_DIR = primeiro_em_fila\nDIR_ENV: Path = Path(ENV_DIR)\n# / \".env\"\nif ENV_DIR is None:\n    raise Exception(\"ENV_DIR não encontrado\")\nprint(f\"Carregando env do diretorio: {DIR_ENV}\")\nx = get_env_file_path()\nclass GerenciadorENV(BaseSettings):\n    _instance = None\n    model_config = SettingsConfigDict(env_file=get_env_file_path()[0])",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "x = get_env_file_path()\nclass GerenciadorENV(BaseSettings):\n    _instance = None\n    model_config = SettingsConfigDict(env_file=get_env_file_path()[0])\n    # BANCO DE DADOS\n    DB_CONNECTION: Final[str] = Field(env=\"DB_CONNECTION\")\n    DB_HOST: Final[str] = Field(env=\"DB_HOST\")\n    DB_PORT: Final[str] = Field(env=\"DB_PORT\")\n    DB_USER: Final[str] = Field(env=\"DB_USER\")\n    DB_PASSWORD: Final[str] = Field(env=\"DB_PASSWORD\")",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "src.configs.variaveis.gerenciador",
+        "description": "src.configs.variaveis.gerenciador",
+        "peekOfCode": "env = GerenciadorENV()",
+        "detail": "src.configs.variaveis.gerenciador",
+        "documentation": {}
+    },
+    {
+        "label": "tabela_cliente",
+        "kind": 5,
+        "importPath": "src.database.orm.entidades.cliente",
+        "description": "src.database.orm.entidades.cliente",
+        "peekOfCode": "tabela_cliente = Table(\n    \"clientes\",\n    registry_base.metadata,\n    Column(\"id\", Integer, primary_key=True, autoincrement=True),\n    Column(\"nome\", String(50), nullable=False),\n    Column(\"limite\", Integer, nullable=False),\n    Column(\"saldo\", Integer, nullable=False, default=0),\n)\nmapper_cliente = registry_base.map_imperatively(Cliente, tabela_cliente)",
+        "detail": "src.database.orm.entidades.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "mapper_cliente",
+        "kind": 5,
+        "importPath": "src.database.orm.entidades.cliente",
+        "description": "src.database.orm.entidades.cliente",
+        "peekOfCode": "mapper_cliente = registry_base.map_imperatively(Cliente, tabela_cliente)",
+        "detail": "src.database.orm.entidades.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "tabela_transacao",
+        "kind": 5,
+        "importPath": "src.database.orm.entidades.transacao",
+        "description": "src.database.orm.entidades.transacao",
+        "peekOfCode": "tabela_transacao = Table(\n    \"transacoes\",\n    registry_base.metadata,\n    Column(\"id\", Integer, primary_key=True, autoincrement=True),\n    Column(\"cliente_id\", Integer, ForeignKey(\"clientes.id\")),\n    Column(\"valor\", Integer, nullable=False),\n    Column(\"tipo\", String(1), nullable=False),\n    Column(\"descricao\", String(10), nullable=False),\n    Column(\"realizada_em\", DateTime, nullable=False, default=func.now()),\n)",
+        "detail": "src.database.orm.entidades.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "mapper_transacao",
+        "kind": 5,
+        "importPath": "src.database.orm.entidades.transacao",
+        "description": "src.database.orm.entidades.transacao",
+        "peekOfCode": "mapper_transacao = registry_base.map_imperatively(TransacaoModel, tabela_transacao)",
+        "detail": "src.database.orm.entidades.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "RepositorioDeCliente",
+        "kind": 6,
+        "importPath": "src.database.orm.repositorio.cliente",
+        "description": "src.database.orm.repositorio.cliente",
+        "peekOfCode": "class RepositorioDeCliente:\n    @classmethod\n    def pesquisar_id(cls, cliente_id: str) -> Optional[Cliente]:\n        with DBConnection() as database:\n            try:\n                usuario_achado = (\n                    database.session.query(Cliente)\n                    .filter(Cliente.id == cliente_id)\n                    .first()\n                )",
+        "detail": "src.database.orm.repositorio.cliente",
+        "documentation": {}
+    },
+    {
+        "label": "RepositorioDeTransacao",
+        "kind": 6,
+        "importPath": "src.database.orm.repositorio.transacao",
+        "description": "src.database.orm.repositorio.transacao",
+        "peekOfCode": "class RepositorioDeTransacao:\n    @classmethod\n    def registrar_transacao(cls, transacao: Transacao) -> Optional[Transacao]:\n        with DBConnection() as database:\n            with database.session.begin():\n                database.session.add(transacao)\n                database.session.commit()\n    @classmethod\n    def pegar_extrato(cls, cliente_id: int) -> list[TransacaoDoExtrato]:\n        with DBConnection() as database:",
+        "detail": "src.database.orm.repositorio.transacao",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "src.database.settings.base",
+        "description": "src.database.settings.base",
+        "peekOfCode": "Base = declarative_base()\nmetadata = MetaData()\nregistry_base = registry()",
+        "detail": "src.database.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "src.database.settings.base",
+        "description": "src.database.settings.base",
+        "peekOfCode": "metadata = MetaData()\nregistry_base = registry()",
+        "detail": "src.database.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "registry_base",
+        "kind": 5,
+        "importPath": "src.database.settings.base",
+        "description": "src.database.settings.base",
+        "peekOfCode": "registry_base = registry()",
+        "detail": "src.database.settings.base",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionHandler",
+        "kind": 6,
+        "importPath": "src.database.settings.connection",
+        "description": "src.database.settings.connection",
+        "peekOfCode": "class DBConnectionHandler:\n    def __init__(self) -> None:\n        self.__connection_string = env.DB_STRING_CONNECTION\n        self.__engine = self.__create_database_engine()\n        self.session = None\n    def __create_database_engine(self):\n        engine = create_engine(self.__connection_string)\n        return engine\n    def get_engine(self):\n        return self.__engine",
+        "detail": "src.database.settings.connection",
+        "documentation": {}
+    },
+    {
+        "label": "load_tables",
+        "kind": 2,
+        "importPath": "src.database.settings.entities",
+        "description": "src.database.settings.entities",
+        "peekOfCode": "def load_tables():\n    from src.database.orm.entidades.cliente import mapper_cliente\n    from src.database.orm.entidades.transacao import mapper_transacao",
+        "detail": "src.database.settings.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "src.database.config",
+        "description": "src.database.config",
+        "peekOfCode": "Base = DeclarativeBase()\nmetadata = MetaData()\nregistry = registry()",
+        "detail": "src.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "src.database.config",
+        "description": "src.database.config",
+        "peekOfCode": "metadata = MetaData()\nregistry = registry()",
+        "detail": "src.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "registry",
+        "kind": 5,
+        "importPath": "src.database.config",
+        "description": "src.database.config",
+        "peekOfCode": "registry = registry()",
+        "detail": "src.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnection",
+        "kind": 6,
+        "importPath": "src.database.manager",
+        "description": "src.database.manager",
+        "peekOfCode": "class DBConnection:\n    __connection_string: str = None\n    session: Session = None\n    commited: bool = False\n    def __init__(self, connection_string: str = None):\n        load_tables()\n        if connection_string is not None:\n            self.__connection_string = connection_string\n        else:\n            self.__connection_string = env.DB_STRING_CONNECTION",
+        "detail": "src.database.manager",
+        "documentation": {}
+    },
+    {
+        "label": "FastException",
+        "kind": 6,
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "peekOfCode": "class FastException(HTTPException):\n    detail: str\n    status_code: int\n    description: Optional[str] = None\n    def _str_(self):\n        return self.detail\n@dataclass\nclass EntradaInvalida(FastException):\n    detail: str = \"Entrada inválida\"\n    status_code: int = 422",
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "EntradaInvalida",
+        "kind": 6,
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "peekOfCode": "class EntradaInvalida(FastException):\n    detail: str = \"Entrada inválida\"\n    status_code: int = 422\n@dataclass\nclass NaoEncontrado(FastException):\n    detail: str = \"Não encontrado\"\n    status_code: int = 404",
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "NaoEncontrado",
+        "kind": 6,
+        "importPath": "src.errors.error_exception",
+        "description": "src.errors.error_exception",
+        "peekOfCode": "class NaoEncontrado(FastException):\n    detail: str = \"Não encontrado\"\n    status_code: int = 404",
+        "detail": "src.errors.error_exception",
+        "documentation": {}
+    },
+    {
+        "label": "TipoDeCredito",
+        "kind": 6,
+        "importPath": "src.model.transacao.entrada",
+        "description": "src.model.transacao.entrada",
+        "peekOfCode": "class TipoDeCredito(str, Enum):\n    d = \"d\"\n    c = \"c\"\nclass EntradaTransacao(BaseModel):\n    valor: int\n    tipo: TipoDeCredito\n    descricao: str\n    @field_validator(\"valor\")\n    def validate_valor(cls, value):\n        if value < 0:",
+        "detail": "src.model.transacao.entrada",
+        "documentation": {}
+    },
+    {
+        "label": "EntradaTransacao",
+        "kind": 6,
+        "importPath": "src.model.transacao.entrada",
+        "description": "src.model.transacao.entrada",
+        "peekOfCode": "class EntradaTransacao(BaseModel):\n    valor: int\n    tipo: TipoDeCredito\n    descricao: str\n    @field_validator(\"valor\")\n    def validate_valor(cls, value):\n        if value < 0:\n            raise EntradaInvalida()\n        return value\n    @field_validator(\"descricao\")",
+        "detail": "src.model.transacao.entrada",
+        "documentation": {}
+    },
+    {
+        "label": "SaidaTransacao",
+        "kind": 6,
+        "importPath": "src.model.transacao.saida",
+        "description": "src.model.transacao.saida",
+        "peekOfCode": "class SaidaTransacao(BaseModel):\n    limite: int\n    saldo: int",
+        "detail": "src.model.transacao.saida",
+        "documentation": {}
+    },
+    {
+        "label": "rotas",
+        "kind": 5,
+        "importPath": "src.rotas.rotas",
+        "description": "src.rotas.rotas",
+        "peekOfCode": "rotas = APIRouter()\n@rotas.post(\"/clientes/{id}/transacoes\")\nasync def transacao_do_cliente(id: int, transacao: EntradaTransacao):\n    resposta = None\n    repo_transacao = RepositorioDeTransacao()\n    repo_cliente = RepositorioDeCliente()\n    cliente = repo_cliente.pesquisar_id(id)\n    if cliente is None:\n        raise NaoEncontrado()\n    nova_transacao = Transacao.criar(",
+        "detail": "src.rotas.rotas",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "start",
+        "description": "start",
+        "peekOfCode": "app = FastAPI()\napp.include_router(rotas)",
+        "detail": "start",
+        "documentation": {}
+    }
+]
